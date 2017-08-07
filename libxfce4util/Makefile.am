@@ -15,6 +15,7 @@ AM_CPPFLAGS =								\
 	-DG_LOG_DOMAIN=\"libxfce4util\"					\
 	-DKIOSKDIR=\"$(sysconfdir)/xdg/xfce4/kiosk\"			\
 	-DKIOSKDEF=\"ALL\"						\
+	-Wno-expansion-to-defined \
 	-DLIBXFCE4UTIL_COMPILATION
 
 lib_LTLIBRARIES =							\
